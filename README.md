@@ -1,3 +1,15 @@
+[JSONPlaceholder]: https://jsonplaceholder.typicode.com/
+
+# JSON Viewer
+
+Proof of concept for a JSON viewing component, both using no other libraries and using a syntax highlighter.
+
+> Feel free to test with invalid sources and valid ones, such as [JSONPlaceholder].
+
+https://user-images.githubusercontent.com/9403665/127966135-a1bf5c90-571d-4d04-9bdb-c9d425422746.mp4
+
+***
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Running on Repl.it

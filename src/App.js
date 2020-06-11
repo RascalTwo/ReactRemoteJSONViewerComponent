@@ -57,7 +57,10 @@ function RemoteJSONViewer({ enableSyntaxHighlighter }) {
         <input
           type="text"
           value={state.url}
-          onChange={useCallback(event => setState(state => ({ ...state, url: event.target.value })), [])}
+          onChange={useCallback(
+            event => event.persist() || setState(state => ({ ...state, url: event.target.value })),
+            [],
+          )}
         />
       </label>
       <button type="submit">View JSON</button>
